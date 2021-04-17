@@ -1,7 +1,10 @@
 from selenium import webdriver
 import sys
-clicks = int(input('How many clicks?: '))
+import chromedriver_autoinstaller
 
+
+clicks = int(input('How many clicks?: '))
+chromedriver_autoinstaller.install() #install web driver
 driver = webdriver.Chrome()
 driver.get("https://ples.click")
 
