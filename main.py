@@ -3,6 +3,8 @@ import sys
 import chromedriver_autoinstaller
 import time
 
+chromedriver_autoinstaller.install()
+
 print("""Welcome
 Selections:
 1.legit
